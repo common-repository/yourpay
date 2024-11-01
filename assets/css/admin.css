@@ -1,0 +1,15 @@
+#yourpay-payment-capture {
+    background: #002B42;
+    font-color: #F2F2F2;
+}
+#yourpay-payment-capture input {
+    width: 100%;
+}
+#yourpay-payment-capture a.button {
+    background: #F0810F;
+    padding: 5px;
+    text-align: right;
+}
+#yourpay-payment-capture .handle-actions {
+    display: none;
+}

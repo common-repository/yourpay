@@ -1,0 +1,136 @@
+.center {
+    width: 60%;
+    hight: 60%;
+    border: 1px solid #b1b1b1;
+    padding: 10px;
+}
+
+body {
+    color: #f0f0f0;
+    margin: 0px 20px;
+    border-radius: 15px 15px;
+}
+
+@font-face {
+    src: url(assets/fonts/sui_generis_rg.ttf);
+}
+
+input[type=text], input[type=password] {
+    background-color: #f0f0f0;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 15px 15px;
+}
+
+button {
+    background-color: #ffa10e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px 15px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    width: 100%;
+    height: auto;
+}
+
+img.logo {
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+.container {
+    padding: 16px;
+    background-color: #0b3e59;
+    background-image: linear-gradient(#002b42, #0b3e59);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.container2 {
+    padding: 16px;
+    background-color: #0b3e59;
+    background-image: linear-gradient(#0b3e59, #0b3e59);
+}
+
+.container3 {
+    padding: 16px;
+    background-color: #0b3e59;
+    background-image: linear-gradient(#0b3e59, #0b3e59);
+}
+.container4 {
+    padding: 16px;
+    background-color: #0b3e59;
+    background-image: linear-gradient(#0b3e59, #0b3e59);
+    border-radius: 0px 0px 15px 15px;
+}
+
+span.psw {
+    float: right;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    width: 30%;
+    position: fixed;
+    bottom: 40%;
+    right: 25%;
+    transition: all 200ms ease-in-out;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #002b42;
+}
+
+.popup .close:hover {
+    color: #f0810f;
+}
+
+@media screen and (max-width: 700px){
+    .box{
+        width: 70%;
+    }
+    .popup{
+        width: 70%;
+    }
+}
